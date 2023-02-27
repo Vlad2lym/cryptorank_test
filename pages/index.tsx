@@ -2,7 +2,7 @@ import NavBar from '@/components/NavBarLayout'
 import SelectCurrency from '@/components/selectCurrency';
 import { fetcher } from '@/helpers/fetcher';
 import { IData } from '@/types/types';
-import { ChangeEvent, MouseEvent, useMemo, useState } from 'react';
+import { ChangeEvent, useMemo, useState } from 'react';
 import styled from 'styled-components';
 import useSWR from 'swr';
 

@@ -2,7 +2,7 @@ import NavBar from "@/components/NavBarLayout";
 import TableRow from "@/components/tableCurrencies/tableRow";
 import TableTitle from "@/components/tableCurrencies/tableTitle";
 import { fetcher } from "@/helpers/fetcher";
-import { ICryptocurrency, IData } from "@/types/types";
+import { IData } from "@/types/types";
 import styled from "styled-components";
 import useSWR from 'swr';
 
